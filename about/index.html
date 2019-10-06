@@ -75,7 +75,7 @@
     <div class="brand-wrap" >
       <div class="brand">
         <a href="/" class="avatar waves-effect waves-circle waves-light">
-          <img src="/img/avatar1.jpg" alt="avatar">
+          <img src="/img/avatar.jpg" alt="avatar">
         </a>
         <hgroup class="introduce">
           <h5 class="nickname" id="name">Jason Shen</h5>
@@ -199,7 +199,7 @@
     <article class="page-article fade" itemprop="blogPage">
         
             <div class="card page-about-me flex-row">
-                <a href="/" class="avatar waves-effect waves-circle waves-light"><img src="/img/avatar1.jpg"></a>
+                <a href="/" class="avatar waves-effect waves-circle waves-light"><img src="/img/avatar.jpg"></a>
                 <div class="content flex-col">
                     <p><strong>Jason Shen</strong></p>
                     <p><em></em></p>
@@ -213,34 +213,27 @@
 
         
     
-
-    
-
-    
-    <!-- Valine Comments -->
-    <div class="comments vcomment" id="comments"></div>
-    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-    <script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
-    <!-- Valine Comments script -->
+<section class="comments" id="comments">
+    <div id="gitment_thread"></div>
+    <link rel="stylesheet" href="//unpkg.com/gitment/style/default.css">
+    <script src="//unpkg.com/gitment/dist/gitment.browser.js"></script>
     <script>
-        var GUEST_INFO = ['nick','mail','link'];
-        var guest_info = 'nick,mail,link'.split(',').filter(function(item){
-          return GUEST_INFO.indexOf(item) > -1
-        });
-        new Valine({
-            el: '#comments',
-            notify: 'false' == 'true',
-            verify: 'false' == 'true',
-            appId: "",
-            appKey: "",
-            avatar: "mm",
-            placeholder: "Just go go",
-            guest_info: guest_info.length == 0 ? GUEST_INFO : guest_info,
-            pageSize: "10"
+        var gitment = new Gitment({
+            owner: '',
+            repo: '',
+            oauth: {
+                client_id: '',
+                client_secret: '',
+            },
         })
+        gitment.render('comments')
     </script>
-    <!-- Valine Comments end -->
+</section>
 
+
+    
+
+    
 
 
     </article>
