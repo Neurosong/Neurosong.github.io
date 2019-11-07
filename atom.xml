@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://Neurosong.github.io/"/>
-  <updated>2019-11-07T17:33:22.331Z</updated>
+  <updated>2019-11-07T17:43:06.174Z</updated>
   <id>http://Neurosong.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>son</title>
+    <link href="http://Neurosong.github.io/2019/11/08/son/"/>
+    <id>http://Neurosong.github.io/2019/11/08/son/</id>
+    <published>2019-11-07T17:42:04.000Z</published>
+    <updated>2019-11-07T17:43:06.174Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="/2019/11/08/son/timthumb_002.jpg" alt="timthumb_002" title="">                </div>                <div class="image-caption">timthumb_002</div>            </figure><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;figure class=&quot;image-bubble&quot;&gt;
+                &lt;div class=&quot;img-lightbox&quot;&gt;
+                    &lt;div class=&quot;overlay&quot;&gt;&lt;/div&gt;
+                   
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Something Basic of Linux</title>
