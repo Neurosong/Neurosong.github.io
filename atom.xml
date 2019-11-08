@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://Neurosong.github.io/"/>
-  <updated>2019-11-07T18:25:11.378Z</updated>
+  <updated>2019-11-08T06:01:18.806Z</updated>
   <id>http://Neurosong.github.io/</id>
   
   <author>
@@ -18,12 +18,12 @@
   
   <entry>
     <title>Something Basic Of Linux</title>
-    <link href="http://Neurosong.github.io/2019/11/08/Something%20Basic%20Of%20Linux/"/>
-    <id>http://Neurosong.github.io/2019/11/08/Something Basic Of Linux/</id>
-    <published>2019-11-07T18:16:22.000Z</published>
-    <updated>2019-11-07T18:25:11.378Z</updated>
+    <link href="http://Neurosong.github.io/2019/11/08/Something-Basic-Of-Linux/"/>
+    <id>http://Neurosong.github.io/2019/11/08/Something-Basic-Of-Linux/</id>
+    <published>2019-11-08T05:59:13.000Z</published>
+    <updated>2019-11-08T06:01:18.806Z</updated>
     
-    <content type="html"><![CDATA[<figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="/2019/11/08/Something Basic Of Linux/Something" alt="timthumb_002" title="Basic">                </div>                <div class="image-caption">Basic</div>            </figure><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="/2019/11/08/Something-Basic-Of-Linux/timthumb_002.jpg" alt="timthumb_002" title="">                </div>                <div class="image-caption">timthumb_002</div>            </figure><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
@@ -45,8 +45,8 @@
   
   <entry>
     <title>Helloooooo World</title>
-    <link href="http://Neurosong.github.io/2019/10/06/helloooooo%20world/"/>
-    <id>http://Neurosong.github.io/2019/10/06/helloooooo world/</id>
+    <link href="http://Neurosong.github.io/2019/10/06/Helloooooo-World/"/>
+    <id>http://Neurosong.github.io/2019/10/06/Helloooooo-World/</id>
     <published>2019-10-06T04:04:36.681Z</published>
     <updated>2019-11-07T12:39:15.085Z</updated>
     
